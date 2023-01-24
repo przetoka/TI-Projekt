@@ -1,0 +1,189 @@
+html{
+    font-family: 'Courier New', Courier, monospace;
+    background-image: linear-gradient(to bottom,rgb(196, 228, 228),rgb(196, 228, 228), rgb(139, 200, 211));
+    background-repeat: no-repeat;
+    color: rgb(136, 71, 197);
+    height: 100%;
+}
+body{
+    width: 98%;
+}
+div.header_animation{
+    width: calc(100% - 250px);
+    float: right;
+    margin: 5px;
+}
+
+div.user_info{
+    border: 2px solid rgb(216, 206, 226);
+    background-color: rgb(216, 206, 226, 0.5);
+    padding: 3% 1%;
+}
+
+div.header{
+    display: block;
+    margin: 1%;
+    text-align: center;
+    font-size: 40px;
+    width: 87%;
+    padding: 1%;
+    margin: auto;
+	text-align:	center;
+    font-weight: 1000;
+    border-radius: 25px;
+}
+
+div.animation{
+    display: block;
+    background-color: rgb(228, 223, 233);
+    height: 700px;
+    margin: 1%;
+    border-radius: 15px;
+    text-align: center;
+    align-items: center;
+}
+
+div.characters{
+    display: inline-block;
+    width: 220px;
+    margin: 1px;
+    text-align: center;
+}
+
+div.char_header_anim{
+    float: left;
+    width: calc(100% - 265px);
+}
+
+div.info{
+    width: 250px;
+    float: right;
+    margin: 5px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+input[type=submit][disabled=true] {
+    background-color: lightgray;
+    border-color: lightgray;
+    cursor: default;
+}
+
+div.login{
+    text-align: center;
+}
+
+canvas{
+    margin-top: 30px;
+    margin-bottom: 5px;
+    margin-right: 0px;
+    margin-left: 0px;
+    background-color: rgb(168, 209, 200);
+    border: 4px dotted rgb(95, 196, 128);
+    border-radius: 30px;
+}
+
+canvas.animation{
+    border: 0px;
+    background-color: transparent;
+    margin: auto;
+    position:absolute;
+    margin-left: calc(50% - 310px);
+    left: 0;
+}
+
+input.sub{
+    margin: 3px;
+    height: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(136, 71, 197);
+    border: 3px solid rgb(136, 71, 197);
+    color: inherit;
+    color: white;
+    border-radius: 3px;
+    opacity: 0.9;
+    cursor: pointer;
+    font-weight: 930;
+}
+
+.char_header_anim .characters .sub:hover{
+    opacity: 1.0;
+}
+.info .login .sub:hover{
+    opacity: 1.0;
+}
+
+
+.form-popup {
+    display: none;
+    width: 500px;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    border: 2px solid rgb(216, 206, 226);
+    background-color: rgb(216, 206, 226, 0.5);
+  }
+
+.form-popup .sub:hover{
+    opacity: 1.0;
+}
+
+div.responseForm{
+    font-size: 30px;
+    width: 500px;
+    position: fixed;
+    height: 55px;
+    bottom: 15px;
+    right: 15px;
+    background-color: rgb(216, 206, 226, 0.5);
+    align-items: center;
+    border: 2px solid rgb(216, 206, 226);
+}
+
+.form-popup .btn {
+    margin-left: 10%;
+    background-color: #04AA6D;
+    color: white;
+    padding: 2%;
+    border: none;
+    cursor: pointer;
+    width: 80%;
+    margin-bottom:5px;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    opacity: 0.8;
+    border-radius: 10px;
+  }
+.form-container input[type=text], .form-container input[type=password] {
+    width: 100%;
+    padding: 13px;
+    margin: 5px;
+    border: none;
+    background-color: #f1f1f1;
+  }
+  
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+.form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+}
+#resp{
+    margin: 200px;
+}
+.form-container .btn {
+    margin-left: 10%;
+    background-color: #04AA6D;
+    color: white;
+    padding: 2%;
+    border: none;
+    cursor: pointer;
+    width: 80%;
+    margin-bottom:5px;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    opacity: 0.8;
+    border-radius: 10px;
+  }
